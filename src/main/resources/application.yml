@@ -1,0 +1,8 @@
+spring:
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+      format_sql: true
+      dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
